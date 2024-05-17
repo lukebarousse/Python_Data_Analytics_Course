@@ -61,7 +61,7 @@ df_US = df[df['job_country'] == 'United States']
 
 # The Analysis
 
-Each jupyter notebook for this project aimed at investigating specific aspects of the data job market. Here’s how I approached each question:
+Each Jupyter notebook for this project aimed at investigating specific aspects of the data job market. Here’s how I approached each question:
 
 ## 1. What are the most demanded skills for the top 3 most popular data roles?
 
