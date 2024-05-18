@@ -67,7 +67,7 @@ Each Jupyter notebook for this project aimed at investigating specific aspects o
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting. 
 
-View my notebook with detailed steps here: [2_Skills_Count](2_Skills_Count.ipynb).
+View my notebook with detailed steps here: [2_Skill_Demand](2_Skill_Demand.ipynb).
 
 ### Visualize Data
 
@@ -189,11 +189,11 @@ Here's the breakdown of the highest-paid & most in-demand skills for data analys
 
 - There's a clear distinction between the skills that are highest paid and those that are most in-demand. Data analysts aiming to maximize their career potential should consider developing a diverse skill set that includes both high-paying specialized skills and widely demanded foundational skills.
 
-## 4. What is the most optimal skill to learn for Data Analysts?
+## 4. What are the most optimal skills to learn for Data Analysts?
 
 To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn. 
 
-View my notebook with detailed steps here: [4_Optimal_Skills](4_Optimal_Skills.ipynb).
+View my notebook with detailed steps here: [5_Optimal_Skills](5_Optimal_Skills.ipynb).
 
 #### Visualize Data
 
