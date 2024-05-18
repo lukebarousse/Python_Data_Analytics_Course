@@ -19,13 +19,15 @@ def add_cell_to_notebook(notebook_path, cell_content):
         nbformat.write(nb, f)
 
 # Loop through all files in the directory
-for filename in os.listdir(directory):
-    if filename.endswith('.ipynb'):
-        notebook_path = os.path.join(directory, filename)
-        colab_link = f'https://colab.research.google.com/github/lukebarousse/Python_Data_Analytics_Course/blob/main/{filename}'
-        badge = f'<a target="_blank" href="{colab_link}">\n  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>\n</a>'
-        cell_content = f'{badge}'
-        add_cell_to_notebook(notebook_path, cell_content)
-        print(f'{notebook_path}: Added cell.')
+for root, dirs, files in os.walk(directory):
+    for filename in files:
+        if filename.endswith('.ipynb'):
+            notebook_path = os.path.join(root, filename)
+            relative_path = os.path.relpath(notebook_path, directory)
+            colab_link = f'https://colab.research.google.com/github/lukebarousse/Python_Data_Analytics_Course/blob/main/{filename}'
+            badge = f'<a target="_blank" href="{colab_link}">\n  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>\n</a>'
+            cell_content = f'{badge}'
+            add_cell_to_notebook(notebook_path, cell_content)
+            print(f'{relative_path}: Added cell.')
 
 print("FINISHED: Added cells to all notebooks.")
