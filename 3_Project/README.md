@@ -17,10 +17,10 @@ Below are the questions I want to answer in my project:
 
 For my deep dive into the data analyst job market, I harnessed the power of several key tools:
 
-- **Python:** The backbone of my analysis, allowing me to analyze the data and find critical insights.
-    - **Pandas Library:** The Python library used to analyze the data. 
-    - **Matplotlib Library:** The library I used to visualize my data.
-    - **Seaborn Library:** The library I used to create more advanced visuals. 
+- **Python:** The backbone of my analysis, allowing me to analyze the data and find critical insights.I also used the following Python libraries:
+    - **Pandas Library:** This was used to analyze the data. 
+    - **Matplotlib Library:** I visualized the data.
+    - **Seaborn Library:** Helped me create more advanced visuals. 
 - **Jupyter Notebooks:** The tool I used to run my Python scripts which let me easily include my notes and analysis.
 - **Visual Studio Code:** My go-to for executing my Python scripts.
 - **Git & GitHub:** Essential for version control and sharing my Python code and analysis, ensuring collaboration and project tracking.
@@ -67,7 +67,7 @@ Each Jupyter notebook for this project aimed at investigating specific aspects o
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting. 
 
-View my notebook with detailed steps here: [2_Skills_Count](/project_python/).
+View my notebook with detailed steps here: [2_Skill_Demand](2_Skill_Demand.ipynb).
 
 ### Visualize Data
 
@@ -98,7 +98,7 @@ plt.show()
 
 To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
 
-View my notebook with detailed steps here: [3_Skills_Trend](/project_python/).
+View my notebook with detailed steps here: [3_Skills_Trend](3_Skills_Trend.ipynb).
 
 ### Visualize Data
 
@@ -129,7 +129,7 @@ plt.show()
 
 To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most. 
 
-View my notebook with detailed steps here: [4_Salary_Analysis](/project_python/).
+View my notebook with detailed steps here: [4_Salary_Analysis](4_Salary_Analysis.ipynb).
 
 #### Visualize Data 
 
@@ -189,11 +189,11 @@ Here's the breakdown of the highest-paid & most in-demand skills for data analys
 
 - There's a clear distinction between the skills that are highest paid and those that are most in-demand. Data analysts aiming to maximize their career potential should consider developing a diverse skill set that includes both high-paying specialized skills and widely demanded foundational skills.
 
-## 4. What is the most optimal skill to learn for Data Analysts?
+## 4. What are the most optimal skills to learn for Data Analysts?
 
 To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn. 
 
-View my notebook with detailed steps here: [4_Optimal_Skills](/project_python/).
+View my notebook with detailed steps here: [5_Optimal_Skills](5_Optimal_Skills.ipynb).
 
 #### Visualize Data
 
