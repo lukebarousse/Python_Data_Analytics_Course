@@ -26,6 +26,6 @@ for filename in os.listdir(directory):
         badge = f'<a target="_blank" href="{colab_link}">\n  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>\n</a>'
         cell_content = f'{badge}'
         add_cell_to_notebook(notebook_path, cell_content)
-    break
+        print(f'{notebook_path}: Added cell.')
 
-print("Added cells to all notebooks.")
+print("FINISHED: Added cells to all notebooks.")
