@@ -1,6 +1,6 @@
 # Python for Data Analytics - Full Course
 
-Data Nerds! This is the repo for all the notebooks for my course from free course on YouTube.
+Data Nerds! This repo contains all the notebooks and code for my free course.
 
 [![Python for Data Analytics](3_Project/images/Python_Data_Analytics_YT.png)](https://youtu.be/7mz73uXD9DA?si=kXWYSyaWdNKBAOyc)
 
