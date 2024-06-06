@@ -1,8 +1,8 @@
 # Python for Data Analytics - Full Course
 
-Data Nerds! This repo contains all the notebooks needed to follow along my free course: [Python for Data Analytics]()
+Data Nerds! This repo contains all the notebooks needed to follow along my free course: [Python for Data Analytics](https://lukebarousse.com/python)
 
-[![Python for Data Analytics](3_Project/images/Python_Data_Analytics_YT.png)](https://youtu.be/7mz73uXD9DA?si=kXWYSyaWdNKBAOyc)
+[![Python for Data Analytics](3_Project/images/Python_Data_Analytics_YT.png)](https://youtu.be/wUSDVGivd-8)
 *Thanks to [Kelly Adams](https://www.linkedin.com/in/kellyjianadams) for help with producing this course*
 
 ## Table of Contents
@@ -44,11 +44,13 @@ Data Nerds! This repo contains all the notebooks needed to follow along my free 
     - Data Visualization
     - Data Interpretation
 
+### [Course Problem Notebooks](/4_Problems/)
+
+- The Notebooks to solve practice problems
+    - [Purchase the problems here](https://lukebarousse.com/python)
+
 ## Found a Typo? Want to Contribute?
 - If you find an error in this codebase, please feel free to make a pull request by:
     - Forking the repo
     - Making any changes
     - Submitting a pull request
-
-## TODO:
-- [ ] Update Link to Video
